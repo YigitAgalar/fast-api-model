@@ -19,6 +19,8 @@ from sklearn.utils import compute_class_weight
 
 numerical_values=["tenure","MonthlyCharges","log_totalcharges"]
 
+drop_values=["gender","PhoneService","MultipleLines","TotalCharges"]
+
 categorical_values=[ 'SeniorCitizen', 'Partner', 'Dependents',
              'InternetService','OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport',
            'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling',
@@ -28,8 +30,7 @@ categorical_values=[ 'SeniorCitizen', 'Partner', 'Dependents',
 test_df = pd.read_csv(test.csv)
 
 
-# dict vectorizer
 
-test_dicts= test_df[categorical_values + numerical_values].to_dict(orient="records")
-vectorizer = DictVectorizer(sparse=False)
-vectorizer.fit(train_dicts)
+def preprocessor(df):
+
+  return processed_df
