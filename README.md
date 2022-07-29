@@ -25,7 +25,7 @@
 <br><br>
 
 <h2>Projeyi yüklemek için</h2>
-<hr>
+
 
 ``` bash
 git clone https://github.com/YigitAgalar/fast-api-model.git
@@ -36,7 +36,7 @@ git clone https://github.com/YigitAgalar/fast-api-model.git
 
 <h3>Uygulamayı başlatmak için</h3>
 
-<br>
+<hr>
 <h4> ❗❗ Proje dosyasının içinde olduğunuzdan emin olun</h4> <br>
 
 ``` bash
