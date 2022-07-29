@@ -32,11 +32,11 @@ git clone https://github.com/YigitAgalar/fast-api-model.git
 ```
 
 <h2>Kullanım</h2>
-<hr>
+
 
 <h3>Uygulamayı başlatmak için</h3>
 
-<hr>
+<br>
 <h4> ❗❗ Proje dosyasının içinde olduğunuzdan emin olun</h4> <br>
 
 ``` bash
@@ -50,7 +50,7 @@ uvicorn main:app --reload
 ```
 
 <h2>Test</h2>
-<hr>
+
 
 <h3>Unit testi çalıştırmak için</h3>
 
