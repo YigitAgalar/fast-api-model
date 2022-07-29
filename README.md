@@ -59,7 +59,7 @@ python test.py
 ```
 
 <br>
-<h3>POST request göndermek için <a>request.ipynb</a> notebookunu veya Postmani kullanarak <a>http://127.0.0.1:8000/predict</a> Endpointine request gönderebilirsiniz </h3>
+<p>POST request göndermek için <a>request.ipynb</a> notebookunu veya Postmani kullanarak <a>http://127.0.0.1:8000/predict</a> Endpointine request gönderebilirsiniz <p>
 
 
 <h2>Kaynak</h2>
