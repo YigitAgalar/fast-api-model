@@ -15,6 +15,7 @@
 <h3> 
     Bu proje fastapi kullanılarak bir machine learning modelinin nasıl deploy edilebileceğini içermektedir.<br>
     Bu projede kullanılan ML modeli Telco Customer Churn verisi kullanılarak oluşturulmuştur.
+    <br>
     <a href="https://www.kaggle.com/datasets/blastchar/telco-customer-churn">Dataset</a>
 
 
