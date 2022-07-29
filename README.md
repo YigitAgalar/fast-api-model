@@ -62,4 +62,4 @@ python test.py
 
 
 <h2>Kaynak</h2>
-[Deploying ML Model](https://towardsdatascience.com/how-to-deploy-a-machine-learning-model-with-fastapi-docker-and-github-actions-13374cbd638a)
+<a href="https://towardsdatascience.com/how-to-deploy-a-machine-learning-model-with-fastapi-docker-and-github-actions-13374cbd638a"> Deploying ML Model </a>
