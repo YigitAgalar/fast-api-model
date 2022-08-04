@@ -1,0 +1,112 @@
+04-08-2022 14:39:50| WARNING  Endpointe veri geldi
+04-08-2022 14:39:50| WARNING  Veri preprocesse girdi
+04-08-2022 14:39:50| WARNING  Model tahmine basladi
+04-08-2022 14:39:50| WARNING   customerID =12231;  tahmin edilen sonuc ;0;
+04-08-2022 14:39:50| WARNING  --------------------
+04-08-2022 14:40:35| WARNING  Endpointe veri geldi
+04-08-2022 14:40:35| WARNING  Veri preprocesse girdi
+04-08-2022 14:40:35| WARNING  Model tahmine basladi
+04-08-2022 14:40:35| WARNING   customerID =12231;  tahmin edilen sonuc ;0;
+04-08-2022 14:40:35| WARNING  --------------------
+04-08-2022 15:12:38| WARNING  Endpointe veri geldi
+04-08-2022 15:12:38| WARNING  Veri preprocesse girdi
+04-08-2022 15:12:38| WARNING  Model tahmine basladi
+04-08-2022 15:12:38| WARNING   customerID =12232341;  tahmin edilen sonuc ;0;
+04-08-2022 15:12:38| WARNING  --------------------
+04-08-2022 15:13:25| WARNING  Endpointe veri geldi
+04-08-2022 15:13:25| WARNING  Veri preprocesse girdi
+04-08-2022 15:13:25| WARNING  Model tahmine basladi
+04-08-2022 15:13:25| WARNING   customerID =2;  tahmin edilen sonuc ;0;
+04-08-2022 15:13:25| WARNING  --------------------
+04-08-2022 15:13:38| WARNING  Endpointe veri geldi
+04-08-2022 15:13:38| WARNING  Veri preprocesse girdi
+04-08-2022 15:13:38| WARNING  Model tahmine basladi
+04-08-2022 15:13:38| WARNING   customerID =2;  tahmin edilen sonuc ;1;
+04-08-2022 15:13:38| WARNING  --------------------
+04-08-2022 15:40:10| WARNING  dbye yazma islemi basladi
+04-08-2022 15:40:10| WARNING  dbye yazma islemi bitti
+04-08-2022 15:40:40| WARNING  dbye yazma islemi basladi
+04-08-2022 15:40:41| WARNING  dbye yazma islemi bitti
+04-08-2022 15:41:11| WARNING  dbye yazma islemi basladi
+04-08-2022 15:41:11| WARNING  dbye yazma islemi bitti
+04-08-2022 15:41:41| WARNING  dbye yazma islemi basladi
+04-08-2022 15:41:41| WARNING  dbye yazma islemi bitti
+04-08-2022 15:42:02| WARNING  dbye yazma islemi basladi
+04-08-2022 15:42:03| WARNING  dbye yazma islemi bitti
+04-08-2022 15:43:08| WARNING  dbye yazma islemi basladi
+04-08-2022 15:43:09| WARNING  dbye yazma islemi bitti
+04-08-2022 15:44:40| WARNING  dbye yazma islemi basladi
+04-08-2022 15:44:41| WARNING  dbye yazma islemi bitti
+04-08-2022 15:45:11| WARNING  dbye yazma islemi basladi
+04-08-2022 15:45:11| WARNING  dbye yazma islemi bitti
+04-08-2022 15:45:41| WARNING  dbye yazma islemi basladi
+04-08-2022 15:45:41| WARNING  dbye yazma islemi bitti
+04-08-2022 15:46:08| WARNING  Endpointe veri geldi
+04-08-2022 15:46:08| WARNING  Veri preprocesse girdi
+04-08-2022 15:46:08| WARNING  Model tahmine basladi
+04-08-2022 15:46:08| WARNING   customerID =23;  tahmin edilen sonuc ;0;
+04-08-2022 15:46:08| WARNING  --------------------
+04-08-2022 15:46:26| WARNING  dbye yazma islemi basladi
+04-08-2022 15:46:27| WARNING  dbye yazma islemi bitti
+04-08-2022 15:46:57| WARNING  dbye yazma islemi basladi
+04-08-2022 15:46:57| WARNING  dbye yazma islemi bitti
+04-08-2022 15:47:27| WARNING  dbye yazma islemi basladi
+04-08-2022 15:47:27| WARNING  dbye yazma islemi bitti
+04-08-2022 15:47:57| WARNING  dbye yazma islemi basladi
+04-08-2022 15:47:57| WARNING  dbye yazma islemi bitti
+04-08-2022 15:48:27| WARNING  dbye yazma islemi basladi
+04-08-2022 15:48:27| WARNING  dbye yazma islemi bitti
+04-08-2022 15:48:57| WARNING  dbye yazma islemi basladi
+04-08-2022 15:48:57| WARNING  dbye yazma islemi bitti
+04-08-2022 15:49:27| WARNING  dbye yazma islemi basladi
+04-08-2022 15:49:28| WARNING  dbye yazma islemi bitti
+04-08-2022 15:49:58| WARNING  dbye yazma islemi basladi
+04-08-2022 15:49:58| WARNING  dbye yazma islemi bitti
+04-08-2022 15:50:46| WARNING  Endpointe veri geldi
+04-08-2022 15:50:46| WARNING  Veri preprocesse girdi
+04-08-2022 15:50:46| WARNING  Model tahmine basladi
+04-08-2022 15:50:46| WARNING   customerID =23;  tahmin edilen sonuc ;0;
+04-08-2022 15:50:46| WARNING  Islem 0.027921676635742188 ms sürdü
+04-08-2022 15:50:46| WARNING  --------------------------------------------------------------------------------
+04-08-2022 15:51:10| WARNING  dbye yazma islemi basladi
+04-08-2022 15:51:11| WARNING  dbye yazma islemi bitti
+04-08-2022 15:51:45| WARNING  Endpointe veri geldi
+04-08-2022 15:51:45| WARNING  Veri preprocesse girdi
+04-08-2022 15:51:45| WARNING  Model tahmine basladi
+04-08-2022 15:51:45| WARNING  Islem 0.03789925575256348 ms sürdü
+04-08-2022 15:51:45| WARNING   customerID =23;  tahmin edilen sonuc ;0;
+04-08-2022 15:51:45| WARNING  --------------------------------------------------------------------------------
+04-08-2022 15:51:54| WARNING  Endpointe veri geldi
+04-08-2022 15:51:54| WARNING  Veri preprocesse girdi
+04-08-2022 15:51:54| WARNING  Model tahmine basladi
+04-08-2022 15:51:54| WARNING  Islem 0.0578455924987793 ms sürdü
+04-08-2022 15:51:54| WARNING   customerID =23;  tahmin edilen sonuc ;0;
+04-08-2022 15:51:54| WARNING  --------------------------------------------------------------------------------
+04-08-2022 15:52:00| WARNING  dbye yazma islemi basladi
+04-08-2022 15:52:01| WARNING  dbye yazma islemi bitti
+04-08-2022 15:52:31| WARNING  dbye yazma islemi basladi
+04-08-2022 15:52:31| WARNING  dbye yazma islemi bitti
+04-08-2022 15:53:01| WARNING  dbye yazma islemi basladi
+04-08-2022 15:53:01| WARNING  dbye yazma islemi bitti
+04-08-2022 15:55:03| WARNING  dbye yazma islemi basladi
+04-08-2022 15:55:03| WARNING  dbye yazma islemi bitti, Islem 781.4269065856934 ms sürdü
+04-08-2022 15:55:33| WARNING  dbye yazma islemi basladi
+04-08-2022 15:55:34| WARNING  dbye yazma islemi bitti, Islem 136.6884708404541 ms sürdü
+04-08-2022 15:56:27| WARNING  dbye yazma islemi basladi
+04-08-2022 15:56:28| WARNING  dbye yazma islemi bitti, Islem 753.5526752471924 ms surdu
+04-08-2022 15:58:25| WARNING  Endpointe veri geldi
+04-08-2022 15:58:25| WARNING  Veri preprocesse girdi
+04-08-2022 15:58:25| WARNING  Model tahmine basladi
+04-08-2022 15:58:25| WARNING  Islem 0.028922319412231445 sn surdu
+04-08-2022 15:58:25| WARNING   customerID =23;  tahmin edilen sonuc ;0;
+04-08-2022 15:58:25| WARNING  --------------------------------------------------------------------------------
+04-08-2022 15:59:26| WARNING  dbye yazma islemi basladi
+04-08-2022 15:59:26| WARNING  dbye yazma islemi bitti, Islem 791.8813228607178 sn surdu
+04-08-2022 15:59:56| WARNING  dbye yazma islemi basladi
+04-08-2022 15:59:56| WARNING  dbye yazma islemi bitti, Islem 78.76896858215332 sn surdu
+04-08-2022 16:00:26| WARNING  dbye yazma islemi basladi
+04-08-2022 16:00:27| WARNING  dbye yazma islemi bitti, Islem 110.16249656677246 sn surdu
+04-08-2022 16:00:57| WARNING  dbye yazma islemi basladi
+04-08-2022 16:00:57| WARNING  dbye yazma islemi bitti, Islem 116.15228652954102 sn surdu
+04-08-2022 16:01:27| WARNING  dbye yazma islemi basladi
+04-08-2022 16:01:27| WARNING  dbye yazma islemi bitti, Islem 88.5016918182373 sn surdu
