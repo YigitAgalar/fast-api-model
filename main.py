@@ -1,20 +1,22 @@
-from multiprocessing.sharedctypes import Value
 from fastapi import FastAPI
 from fastapi.encoders import jsonable_encoder
-from sklearn.linear_model import LogisticRegression
-from pydantic import BaseModel, root_validator, validator
+from pydantic import BaseModel, validator
 import pickle
 import pandas as pd
 from data.data import preprocessor
 from logger import logger
 import re
-import io
+import time
 from sqlalchemy import create_engine
+from fastapi_utils.tasks import repeat_every
+from datetime import datetime
+from pathlib import Path
+from data.db import postgre_insert
 
 
-engine = create_engine(
+engine = create_engine(""
    )
-
+table = "loglar"
 
 app = FastAPI()
 
@@ -56,6 +58,23 @@ class Data(BaseModel):
         return value
 
 
+
+@app.on_event("startup")
+@repeat_every(wait_first=True,seconds= 1 * 30)  #1 hour 60*60
+def write_logs_db() -> None:
+    path_to_file = f"logs/{datetime.now().strftime('%d-%m-%Y')}.log"
+    path = Path(path_to_file)
+    if path.is_file():
+        start_time=time.time()
+        logger.warning(f"dbye yazma islemi basladi")
+        postgre_insert(engine,table,log_split())
+        logger.warning(f"dbye yazma islemi bitti, Islem {(time.time()-start_time)*1000} ms surdu")
+    else:
+        logger.error(f"logs/{datetime.now().strftime('%d-%m-%Y')}.log bulunmuyor dbye yazim islemi yapilmadi")
+    
+
+
+
 @app.get("/")
 def root():
     logger.warning("logging from the root logger")
@@ -64,7 +83,7 @@ def root():
 
 @app.post("/predict")
 def make_prediction(data: Data):
-    
+    start_time=time.time()
     logger.warning("Endpointe veri geldi")
     json_item = jsonable_encoder(data)
     df_new = pd.DataFrame(json_item, index=[0])
@@ -73,11 +92,12 @@ def make_prediction(data: Data):
     logger.warning("Model tahmine basladi")
     # a=loaded_model.predict_proba(df_processed)[0]
     a = loaded_model.predict(df_processed)[0]
+    logger.warning(f"Islem {time.time()-start_time} ms surdu") 
     logger.warning(
         f" customerID ={df_new.loc[0,'customerID']};  tahmin edilen sonuc ;{a};")
-    logger.warning("-"*20)
-    query= """INSERT INTO loglar ("timestamp","customerID",churn_prediction) VALUES ({0},{1},{2}) """.format(timestamp,df_new.loc[0,'customerID'],a)
-    log_to_df(log_split())
+       
+    logger.warning("----"*20)
+    
     return {"Churn": f"{a}"}
 
 # LOG OPERATIONS
@@ -87,7 +107,7 @@ def log_split():
     data = []
     order = ["timestamp", "customerID", "churn_prediction"]
     indices_to_access = [0, 2, 4]
-    file_name = "logdeneme.log"
+    file_name = f"logs/{datetime.now().strftime('%d-%m-%Y')}.log"
     file = open(file_name, "r")
     for line in file.readlines():
         if "customerID" in line:
@@ -98,13 +118,9 @@ def log_split():
                          value in zip(order, accessed_series)}
             data.append(structure)
 
-    return data
-
-
-def log_to_df(data_dict):
-    table = "deneme"
-    df = pd.DataFrame.from_records(data_dict)
+    df = pd.DataFrame.from_records(data)
     df["timestamp"] = pd.to_datetime(df['timestamp'])
-    df.to_csv("deneme.csv", sep=",", index=False)
-    ddl = pd.io.sql.get_schema(df, table, con=engine)
-    print(ddl)
+    return df
+
+
+    
