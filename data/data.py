@@ -1,10 +1,7 @@
-from hashlib import new
 import pandas as pd
 import numpy as np
-import pickle
 import joblib
 
-from sklearn.preprocessing import StandardScaler
 
 numerical_values = ["tenure", "MonthlyCharges", "TotalCharges"]
 
@@ -53,7 +50,6 @@ def editFrame(df):
     df["TotalCharges"] = df["TotalCharges"].astype(float)
     df[numerical_values] = scaler.transform(df[numerical_values])
     return df
-
 
 
 
