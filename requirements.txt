@@ -2,6 +2,7 @@
 
 data == 0.4
 fastapi == 0.79.0
+fastapi_utils
 joblib == 1.1.0
 numpy == 1.20.0
 pandas == 1.2.1
